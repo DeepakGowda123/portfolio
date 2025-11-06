@@ -85,43 +85,7 @@ portfolio/
 │   └── index.css              # Global styles & theme
 ├── public/                    # Static assets
 └── README.md
-🎨 Customization
-🧩 Add New Projects
-Edit src/components/Projects.tsx and update the projects array:
-
-typescript
-Copy code
-{
-  id: "project-id",
-  title: "Project Name",
-  tagline: "Brief description",
-  emoji: "🚀",
-  description: "Detailed description...",
-  tech: ["Tech1", "Tech2"],
-  highlights: ["Achievement 1", "Achievement 2"],
-  architecture: ["Component1", "Component2"],
-  icon: YourIcon,
-  gradient: "from-blue-500 to-cyan-500",
-  status: "Production",
-  github: "github-url",
-  demo: "demo-url"
-}
-💼 Add Experience
-Edit src/components/Experience.tsx and update the experiences array:
-
-typescript
-Copy code
-{
-  id: "experience-id",
-  role: "Job Title",
-  company: "Company Name",
-  location: "Location",
-  duration: "Start – End",
-  isActive: false,
-  achievements: [...],
-  technologies: [...],
-  gradient: "from-purple-500 to-pink-500"
-}
+```
 📦 Build for Production
 bash
 Copy code
@@ -159,3 +123,6 @@ Built with ❤️ by Deepak A S
 Backend Engineer | MCA Graduate from PES University
 
 “Give me a system, and I'll figure it out.”
+
+
+it is in normal text give me this in like headings sub headings etc as u did for the starting portion
