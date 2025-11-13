@@ -39,7 +39,7 @@ export const Contact = () => {
       icon: Download,
       title: "Resume",
       value: "Download my CV",
-      href: "/DeepakGowda_Resume.pdf",
+      href: "/Deepak_Resume.pdf",
       gradient: "from-green-500 to-emerald-500",
       action: "Download PDF",
       download: true
@@ -113,7 +113,7 @@ export const Contact = () => {
 
                   <a
                     href={method.href}
-                    {...(method.download ? { download: "DeepakGowda_Resume.pdf" } : { target: "_blank", rel: "noopener noreferrer" })}
+                    {...(method.download ? { download: "Deepak_Resume.pdf" } : { target: "_blank", rel: "noopener noreferrer" })}
                     className="flex items-center justify-between p-3 rounded-lg bg-secondary/50 hover:bg-secondary transition-all group/btn"
                   >
                     <span className="text-sm font-mono font-medium">{method.action}</span>
